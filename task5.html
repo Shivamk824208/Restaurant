@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites - Restaurant</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <header>
+    <h1>Delicious Bites </h1>
+    
+        <nav class="navbar">
+            <div class="logo">My Restaurant</div>
+            <ul class="nav-links" id="navLinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#reservation">Reserve</a></li>
+            </ul>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        </nav>
+    </header>
+           
+    <section class="hero">
+        <img src="C:\Users\LENOVO\Desktop\project\restu.jpg" alt="Restaurant">
+        <h2>Welcome to Delicious Bites</h2>
+        <p>Enjoy the best food intown!</p>
+        <button onclick="booktable()">Reserve a Table</button>
+    </section>
+    <section id="menu" class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="C:\Users\LENOVO\Desktop\project\pizza.jpg" alt="Pizza">
+                <h3>Margherita Pizza</h3>
+                <p>Cheesy delight with fresh basil</p>
+                <span>₹299</span>
+            </div>
+            <div class="menu-item">
+                <img src="C:\Users\LENOVO\Desktop\project\pasta.jpg" alt=" Burger">
+                <h3>Veg Burger</h3>
+                <p>crispy patty with spicy mayo</p>
+                <span>₹149</span>
+            </div>
+            <div class="menu-item">
+                <img src="C:\Users\LENOVO\Desktop\project\burger.jpg" alt="Pasta">
+                <h3>white sauce Pasta</h3>
+                <p>Creamy Pasta with veggies</p>
+                <span>₹199</span>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Our Restaurant</h2>
+        <p>Welcome to Foodie's Paradise! We bring you delicious food made with love and fresh ingredients. Whether you're craving Italian, India,or chinese- we've got something  for everyone!</p>
+        <p>Open since 2020, We are know for our fast service, great taste, and affordable prices.</p>
+    </section>
+    <section id="Contact">
+        <h2>Contact Us</h2>
+        <form id="Contact-form">
+            <input type="text" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <section id="reservation">
+        <h2>Book a Table</h2>
+        <form id="reservation-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="text" name="email" placeholder="Your Email" required>
+            <input type="number" name="pepole" placeholder="Number of Pepole" required>
+            <input type="date" name="date" placeholder="Date" required>
+            <input type="time" name="time" placeholder="Time" required>
+            <button type="submit">Reserve Now </button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 Delicious Bites. All rights reserved.</p>
+        <p>Follow Us On
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </p>
+    </footer>
+    <script src="script4.js"></script>
+</body>
+</html>
